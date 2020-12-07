@@ -4,9 +4,7 @@ let input;
 let message;
 
 const findTotal = function (numbers) {
-  if (numbers.length === 1) {
-    message = 'Массив пустой';
-  } else {
+  if (numbers.length) {
     for (const number of numbers) {
       total += number;
     }
